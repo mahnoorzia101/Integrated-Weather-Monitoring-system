@@ -1,0 +1,685 @@
+Changed to Desktop directory successfully
+/usr/bin/ld: /tmp/ccwtn5Gt.o: in function `sendEmailAlert':
+main1.c:(.text+0x16c): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x171): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x1b3): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x1e0): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x20d): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x238): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x263): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: /tmp/ccwtn5Gt.o:main1.c:(.text+0x28e): more undefined references to `curl_easy_setopt' follow
+/usr/bin/ld: /tmp/ccwtn5Gt.o: in function `sendEmailAlert':
+main1.c:(.text+0x2b2): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x2e6): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x313): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x361): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3a5): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3d9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x3e8): undefined reference to `curl_mime_init'
+/usr/bin/ld: main1.c:(.text+0x3fe): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x425): undefined reference to `curl_mime_data'
+/usr/bin/ld: main1.c:(.text+0x43e): undefined reference to `curl_mime_type'
+/usr/bin/ld: main1.c:(.text+0x457): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x477): undefined reference to `curl_mime_filedata'
+/usr/bin/ld: main1.c:(.text+0x4a4): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x4b3): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x4cf): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x4ff): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x50e): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x51d): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0x52c): undefined reference to `curl_mime_free'
+/usr/bin/ld: main1.c:(.text+0x531): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/ccwtn5Gt.o: in function `getWeatherData':
+main1.c:(.text+0x7fb): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x800): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x86f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x89c): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8c9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8d8): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x8f4): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x92e): undefined reference to `json_tokener_parse'
+/usr/bin/ld: main1.c:(.text+0x955): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0x976): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x97e): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0x9a6): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9ae): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0x9d1): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9d9): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xa09): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xa21): undefined reference to `json_object_array_get_idx'
+/usr/bin/ld: main1.c:(.text+0xa41): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xa49): undefined reference to `json_object_get_string'
+/usr/bin/ld: main1.c:(.text+0xa87): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xaa4): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xaac): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xad5): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xadd): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb0d): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb35): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb48): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb78): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb8b): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xbbb): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xbce): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0xbe7): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0xbec): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/ccwtn5Gt.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/ccwtn5Gt.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/ccwtn5Gt.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+Changed to Desktop directory successfully
+/usr/bin/ld: /tmp/cc9cyF1z.o: in function `sendEmailAlert':
+main1.c:(.text+0x16c): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x171): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x1b3): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x1e0): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x20d): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x238): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x263): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: /tmp/cc9cyF1z.o:main1.c:(.text+0x28e): more undefined references to `curl_easy_setopt' follow
+/usr/bin/ld: /tmp/cc9cyF1z.o: in function `sendEmailAlert':
+main1.c:(.text+0x2b2): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x2e6): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x313): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x361): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3a5): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3d9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x3e8): undefined reference to `curl_mime_init'
+/usr/bin/ld: main1.c:(.text+0x3fe): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x425): undefined reference to `curl_mime_data'
+/usr/bin/ld: main1.c:(.text+0x43e): undefined reference to `curl_mime_type'
+/usr/bin/ld: main1.c:(.text+0x457): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x477): undefined reference to `curl_mime_filedata'
+/usr/bin/ld: main1.c:(.text+0x4a4): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x4b3): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x4cf): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x4ff): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x50e): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x51d): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0x52c): undefined reference to `curl_mime_free'
+/usr/bin/ld: main1.c:(.text+0x531): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/cc9cyF1z.o: in function `getWeatherData':
+main1.c:(.text+0x7fb): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x800): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x86f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x89c): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8c9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8d8): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x8f4): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x92e): undefined reference to `json_tokener_parse'
+/usr/bin/ld: main1.c:(.text+0x955): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0x976): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x97e): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0x9a6): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9ae): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0x9d1): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9d9): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xa09): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xa21): undefined reference to `json_object_array_get_idx'
+/usr/bin/ld: main1.c:(.text+0xa41): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xa49): undefined reference to `json_object_get_string'
+/usr/bin/ld: main1.c:(.text+0xa87): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xaa4): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xaac): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xad5): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xadd): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb0d): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb35): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb48): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb78): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb8b): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xbbb): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xbce): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0xbe7): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0xbec): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/cc9cyF1z.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/cc9cyF1z.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/cc9cyF1z.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+Changed to Desktop directory successfully
+/usr/bin/ld: /tmp/ccQOfqV4.o: in function `sendEmailAlert':
+main1.c:(.text+0x16c): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x171): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x1b3): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x1e0): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x20d): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x238): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x263): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: /tmp/ccQOfqV4.o:main1.c:(.text+0x28e): more undefined references to `curl_easy_setopt' follow
+/usr/bin/ld: /tmp/ccQOfqV4.o: in function `sendEmailAlert':
+main1.c:(.text+0x2b2): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x2e6): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x313): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x361): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3a5): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3d9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x3e8): undefined reference to `curl_mime_init'
+/usr/bin/ld: main1.c:(.text+0x3fe): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x425): undefined reference to `curl_mime_data'
+/usr/bin/ld: main1.c:(.text+0x43e): undefined reference to `curl_mime_type'
+/usr/bin/ld: main1.c:(.text+0x457): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x477): undefined reference to `curl_mime_filedata'
+/usr/bin/ld: main1.c:(.text+0x4a4): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x4b3): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x4cf): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x4ff): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x50e): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x51d): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0x52c): undefined reference to `curl_mime_free'
+/usr/bin/ld: main1.c:(.text+0x531): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/ccQOfqV4.o: in function `getWeatherData':
+main1.c:(.text+0x7fb): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x800): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x86f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x89c): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8c9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8d8): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x8f4): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x92e): undefined reference to `json_tokener_parse'
+/usr/bin/ld: main1.c:(.text+0x955): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0x976): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x97e): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0x9a6): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9ae): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0x9d1): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9d9): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xa09): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xa21): undefined reference to `json_object_array_get_idx'
+/usr/bin/ld: main1.c:(.text+0xa41): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xa49): undefined reference to `json_object_get_string'
+/usr/bin/ld: main1.c:(.text+0xa87): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xaa4): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xaac): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xad5): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xadd): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb0d): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb35): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb48): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb78): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb8b): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xbbb): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xbce): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0xbe7): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0xbec): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/ccQOfqV4.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/ccQOfqV4.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/ccQOfqV4.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+Changed to Desktop directory successfully
+/usr/bin/ld: /tmp/cc7hDgfx.o: in function `sendEmailAlert':
+main1.c:(.text+0x16c): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x171): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x1b3): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x1e0): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x20d): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x238): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x263): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: /tmp/cc7hDgfx.o:main1.c:(.text+0x28e): more undefined references to `curl_easy_setopt' follow
+/usr/bin/ld: /tmp/cc7hDgfx.o: in function `sendEmailAlert':
+main1.c:(.text+0x2b2): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x2e6): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x313): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x361): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3a5): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3d9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x3e8): undefined reference to `curl_mime_init'
+/usr/bin/ld: main1.c:(.text+0x3fe): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x425): undefined reference to `curl_mime_data'
+/usr/bin/ld: main1.c:(.text+0x43e): undefined reference to `curl_mime_type'
+/usr/bin/ld: main1.c:(.text+0x457): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x477): undefined reference to `curl_mime_filedata'
+/usr/bin/ld: main1.c:(.text+0x4a4): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x4b3): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x4cf): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x4ff): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x50e): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x51d): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0x52c): undefined reference to `curl_mime_free'
+/usr/bin/ld: main1.c:(.text+0x531): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/cc7hDgfx.o: in function `getWeatherData':
+main1.c:(.text+0x7fb): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x800): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x86f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x89c): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8c9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8d8): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x8f4): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x92e): undefined reference to `json_tokener_parse'
+/usr/bin/ld: main1.c:(.text+0x955): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0x976): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x97e): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0x9a6): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9ae): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0x9d1): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9d9): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xa09): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xa21): undefined reference to `json_object_array_get_idx'
+/usr/bin/ld: main1.c:(.text+0xa41): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xa49): undefined reference to `json_object_get_string'
+/usr/bin/ld: main1.c:(.text+0xa87): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xaa4): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xaac): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xad5): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xadd): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb0d): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb35): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb48): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb78): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb8b): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xbbb): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xbce): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0xbe7): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0xbec): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/cc7hDgfx.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/cc7hDgfx.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/cc7hDgfx.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+gcc: fatal error: output filename may not be empty
+compilation terminated.
+Compilation failed.
+gcc: fatal error: output filename may not be empty
+compilation terminated.
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: cannot find -lcjson-c: No such file or directory
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: /tmp/ccIZWV53.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/ccIZWV53.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/ccIZWV53.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: /tmp/ccVyV7KL.o: in function `sendEmailAlert':
+main1.c:(.text+0x16c): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x171): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x1b3): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x1e0): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x20d): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x238): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x263): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: /tmp/ccVyV7KL.o:main1.c:(.text+0x28e): more undefined references to `curl_easy_setopt' follow
+/usr/bin/ld: /tmp/ccVyV7KL.o: in function `sendEmailAlert':
+main1.c:(.text+0x2b2): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x2e6): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x313): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x361): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3a5): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3d9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x3e8): undefined reference to `curl_mime_init'
+/usr/bin/ld: main1.c:(.text+0x3fe): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x425): undefined reference to `curl_mime_data'
+/usr/bin/ld: main1.c:(.text+0x43e): undefined reference to `curl_mime_type'
+/usr/bin/ld: main1.c:(.text+0x457): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x477): undefined reference to `curl_mime_filedata'
+/usr/bin/ld: main1.c:(.text+0x4a4): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x4b3): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x4cf): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x4ff): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x50e): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x51d): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0x52c): undefined reference to `curl_mime_free'
+/usr/bin/ld: main1.c:(.text+0x531): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/ccVyV7KL.o: in function `getWeatherData':
+main1.c:(.text+0x7fb): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x800): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x86f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x89c): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8c9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8d8): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x8f4): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x92e): undefined reference to `json_tokener_parse'
+/usr/bin/ld: main1.c:(.text+0x955): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0x976): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x97e): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0x9a6): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9ae): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0x9d1): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9d9): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xa09): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xa21): undefined reference to `json_object_array_get_idx'
+/usr/bin/ld: main1.c:(.text+0xa41): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xa49): undefined reference to `json_object_get_string'
+/usr/bin/ld: main1.c:(.text+0xa87): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xaa4): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xaac): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xad5): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xadd): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb0d): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb35): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb48): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb78): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb8b): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xbbb): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xbce): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0xbe7): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0xbec): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/ccVyV7KL.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/ccVyV7KL.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/ccVyV7KL.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+/usr/bin/ld: /tmp/cckPlkGW.o: in function `sendEmailAlert':
+main1.c:(.text+0x16c): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x171): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x1b3): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x1e0): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x20d): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x238): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x263): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: /tmp/cckPlkGW.o:main1.c:(.text+0x28e): more undefined references to `curl_easy_setopt' follow
+/usr/bin/ld: /tmp/cckPlkGW.o: in function `sendEmailAlert':
+main1.c:(.text+0x2b2): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x2e6): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x313): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x361): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3a5): undefined reference to `curl_slist_append'
+/usr/bin/ld: main1.c:(.text+0x3d9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x3e8): undefined reference to `curl_mime_init'
+/usr/bin/ld: main1.c:(.text+0x3fe): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x425): undefined reference to `curl_mime_data'
+/usr/bin/ld: main1.c:(.text+0x43e): undefined reference to `curl_mime_type'
+/usr/bin/ld: main1.c:(.text+0x457): undefined reference to `curl_mime_addpart'
+/usr/bin/ld: main1.c:(.text+0x477): undefined reference to `curl_mime_filedata'
+/usr/bin/ld: main1.c:(.text+0x4a4): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x4b3): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x4cf): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x4ff): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x50e): undefined reference to `curl_slist_free_all'
+/usr/bin/ld: main1.c:(.text+0x51d): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0x52c): undefined reference to `curl_mime_free'
+/usr/bin/ld: main1.c:(.text+0x531): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/cckPlkGW.o: in function `getWeatherData':
+main1.c:(.text+0x7fb): undefined reference to `curl_global_init'
+/usr/bin/ld: main1.c:(.text+0x800): undefined reference to `curl_easy_init'
+/usr/bin/ld: main1.c:(.text+0x86f): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x89c): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8c9): undefined reference to `curl_easy_setopt'
+/usr/bin/ld: main1.c:(.text+0x8d8): undefined reference to `curl_easy_perform'
+/usr/bin/ld: main1.c:(.text+0x8f4): undefined reference to `curl_easy_strerror'
+/usr/bin/ld: main1.c:(.text+0x92e): undefined reference to `json_tokener_parse'
+/usr/bin/ld: main1.c:(.text+0x955): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0x976): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x97e): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0x9a6): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9ae): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0x9d1): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0x9d9): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xa09): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xa21): undefined reference to `json_object_array_get_idx'
+/usr/bin/ld: main1.c:(.text+0xa41): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xa49): undefined reference to `json_object_get_string'
+/usr/bin/ld: main1.c:(.text+0xa87): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xaa4): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xaac): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xad5): undefined reference to `json_object_object_get'
+/usr/bin/ld: main1.c:(.text+0xadd): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb0d): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb35): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb48): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xb78): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xb8b): undefined reference to `json_object_get_double'
+/usr/bin/ld: main1.c:(.text+0xbbb): undefined reference to `json_object_object_get_ex'
+/usr/bin/ld: main1.c:(.text+0xbce): undefined reference to `json_object_get_int'
+/usr/bin/ld: main1.c:(.text+0xbe7): undefined reference to `curl_easy_cleanup'
+/usr/bin/ld: main1.c:(.text+0xbec): undefined reference to `curl_global_cleanup'
+/usr/bin/ld: /tmp/cckPlkGW.o: in function `processWeatherData':
+main1.c:(.text+0xc7d): undefined reference to `cJSON_Parse'
+/usr/bin/ld: main1.c:(.text+0xcab): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xccb): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd07): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd2d): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: main1.c:(.text+0xd53): undefined reference to `cJSON_GetObjectItem'
+/usr/bin/ld: /tmp/cckPlkGW.o:main1.c:(.text+0xd79): more undefined references to `cJSON_GetObjectItem' follow
+/usr/bin/ld: /tmp/cckPlkGW.o: in function `processWeatherData':
+main1.c:(.text+0xdfc): undefined reference to `cJSON_Delete'
+collect2: error: ld returned 1 exit status
+Compilation failed.
+╔════════════════════════════════════════════════════════════╗
+║                ENVIRONMENTAL MONITORING SYSTEM             ║
+╚════════════════════════════════════════════════════════════╝
+
+Welcome to Our Environmental Monitoring System! 🌍
+Stay informed with real-time environment information. Explore the dashboard for insights and make eco-friendly decisions.
+
+* LOCATION : KARACHI, PAKISTAN *
+Province : Sindh
+Time zone in Karachi (GMT+5): 18000
+Latitude: 24.9056 
+Longitude: 67.0822 
++--------------------------------------------------------------------+
+|          CURRENT STATS ||  Sunday: 07 Jan 2024 | 12:16:08 AM    |
++--------------------------------------------------------------------+
+
+Day Period: Midnight
+Temperature: 15.90°C
+Weather: haze
+Humidity: 55%
+Wind Speed: 2.57 m/s
+Wind Direction: 70.00° E
+Atmospheric Pressure: 1019.00 hPa
+Visibility: Excellent (65.53 km)
+
+
+Thank you for using our Environemtal monitoring Application! 
+------------------------- *********** ------------------------
+
+╔════════════════════════════════════════════════════════════╗
+║                ENVIRONMENTAL MONITORING SYSTEM             ║
+╚════════════════════════════════════════════════════════════╝
+
+Welcome to Our Environmental Monitoring System! 🌍
+Stay informed with real-time environment information. Explore the dashboard for insights and make eco-friendly decisions.
+
+* LOCATION : KARACHI, PAKISTAN *
+Province : Sindh
+Time zone in Karachi (GMT+5): 18000
+Latitude: 24.9056 
+Longitude: 67.0822 
++--------------------------------------------------------------------+
+|          CURRENT STATS ||  Sunday: 07 Jan 2024 | 12:17:02 AM    |
++--------------------------------------------------------------------+
+
+Day Period: Midnight
+Temperature: 15.90°C
+Weather: haze
+Humidity: 55%
+Wind Speed: 2.57 m/s
+Wind Direction: 70.00° E
+Atmospheric Pressure: 1019.00 hPa
+Visibility: Excellent (65.53 km)
+
+
+Thank you for using our Environemtal monitoring Application! 
+------------------------- *********** ------------------------
+
+╔════════════════════════════════════════════════════════════╗
+║                ENVIRONMENTAL MONITORING SYSTEM             ║
+╚════════════════════════════════════════════════════════════╝
+
+Welcome to Our Environmental Monitoring System! 🌍
+Stay informed with real-time environment information. Explore the dashboard for insights and make eco-friendly decisions.
+
+* LOCATION : KARACHI, PAKISTAN *
+Province : Sindh
+Time zone in Karachi (GMT+5): 18000
+Latitude: 24.9056 
+Longitude: 67.0822 
++--------------------------------------------------------------------+
+|          CURRENT STATS ||  Sunday: 07 Jan 2024 | 12:18:02 AM    |
++--------------------------------------------------------------------+
+
+Day Period: Midnight
+Temperature: 15.90°C
+Weather: haze
+Humidity: 55%
+Wind Speed: 2.57 m/s
+Wind Direction: 70.00° E
+Atmospheric Pressure: 1019.00 hPa
+Visibility: Excellent (65.53 km)
+
+
+Thank you for using our Environemtal monitoring Application! 
+------------------------- *********** ------------------------
+
+╔════════════════════════════════════════════════════════════╗
+║                ENVIRONMENTAL MONITORING SYSTEM             ║
+╚════════════════════════════════════════════════════════════╝
+
+Welcome to Our Environmental Monitoring System! 🌍
+Stay informed with real-time environment information. Explore the dashboard for insights and make eco-friendly decisions.
+
+* LOCATION : KARACHI, PAKISTAN *
+Province : Sindh
+Time zone in Karachi (GMT+5): 18000
+Latitude: 24.9056 
+Longitude: 67.0822 
++--------------------------------------------------------------------+
+|          CURRENT STATS ||  Sunday: 07 Jan 2024 | 12:19:02 AM    |
++--------------------------------------------------------------------+
+
+Day Period: Midnight
+Temperature: 15.90°C
+Weather: haze
+Humidity: 55%
+Wind Speed: 2.57 m/s
+Wind Direction: 70.00° E
+Atmospheric Pressure: 1019.00 hPa
+Visibility: Excellent (65.53 km)
+
+
+Thank you for using our Environemtal monitoring Application! 
+------------------------- *********** ------------------------
+
+╔════════════════════════════════════════════════════════════╗
+║                ENVIRONMENTAL MONITORING SYSTEM             ║
+╚════════════════════════════════════════════════════════════╝
+
+Welcome to Our Environmental Monitoring System! 🌍
+Stay informed with real-time environment information. Explore the dashboard for insights and make eco-friendly decisions.
+
+* LOCATION : KARACHI, PAKISTAN *
+Province : Sindh
+Time zone in Karachi (GMT+5): 18000
+Latitude: 24.9056 
+Longitude: 67.0822 
++--------------------------------------------------------------------+
+|          CURRENT STATS ||  Sunday: 07 Jan 2024 | 12:20:02 AM    |
++--------------------------------------------------------------------+
+
+Day Period: Midnight
+Temperature: 15.90°C
+Weather: haze
+Humidity: 55%
+Wind Speed: 2.57 m/s
+Wind Direction: 70.00° E
+Atmospheric Pressure: 1019.00 hPa
+Visibility: Excellent (65.53 km)
+
+
+Thank you for using our Environemtal monitoring Application! 
+------------------------- *********** ------------------------
+
+╔════════════════════════════════════════════════════════════╗
+║                ENVIRONMENTAL MONITORING SYSTEM             ║
+╚════════════════════════════════════════════════════════════╝
+
+Welcome to Our Environmental Monitoring System! 🌍
+Stay informed with real-time environment information. Explore the dashboard for insights and make eco-friendly decisions.
+
+* LOCATION : KARACHI, PAKISTAN *
+Province : Sindh
+Time zone in Karachi (GMT+5): 18000
+Latitude: 24.9056 
+Longitude: 67.0822 
++--------------------------------------------------------------------+
+|          CURRENT STATS ||  Monday: 08 Jan 2024 | 12:00:07 AM    |
++--------------------------------------------------------------------+
+
+Day Period: Midnight
+Temperature: 15.90°C
+Weather: haze
+Humidity: 31%
+Wind Speed: 3.09 m/s
+Wind Direction: 50.00° E
+Atmospheric Pressure: 1019.00 hPa
+Visibility: Excellent (65.53 km)
+
+
+Thank you for using our Environemtal monitoring Application! 
+------------------------- *********** ------------------------
+
